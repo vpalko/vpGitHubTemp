@@ -1,3 +1,4 @@
+package task1;
 public class Shape {
     
   private int width;

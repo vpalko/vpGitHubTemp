@@ -1,3 +1,4 @@
+package task1;
 public class Motorcycle implements VehicleSpecification {
   private String brand;
   public Motorcycle(String brand) {

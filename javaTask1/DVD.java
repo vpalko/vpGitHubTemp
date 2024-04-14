@@ -1,3 +1,4 @@
+package task1;
 public class DVD extends Product {
   /**
    * Constructor for DVD class

@@ -1,3 +1,4 @@
+package task1;
 import javafx.scene.Parent;
 
 public class Rectangle extends Shape implements Comparable {
