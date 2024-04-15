@@ -1,0 +1,7 @@
+type,height,width
+rectangle,924,80
+rectangle,687,93
+rectangle,472,77
+rectangle,551,52
+rectangle,72,60
+rectangle,88,80

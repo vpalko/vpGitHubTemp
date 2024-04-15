@@ -1,4 +1,4 @@
-package task1;
+package javaTask1;
 public interface VehicleSpecification {
   public void start();
 
