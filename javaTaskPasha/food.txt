@@ -1,0 +1,10 @@
+category,product,vegan,expiration,price,option1
+meat,sirloin,false,05/23/2024,12.99,true
+veggies,potatoes,true,10/23/2024,6.99,false
+dairy,milk,false,4/30/2024,1.99,false
+meat,chicken,false,04/22/2024,8.99,false
+veggies,mashed potatoes,false,04/26/2024,3.99,false
+veggies,brussel sprouts,true,05/30/2024,7.56,true
+dairy,fairlife milk,false,05/29/2024,2.14,true
+dairy,almond milk,true,06/14/2024,2.67,true
+meat,ham,false,05/20/2024,5.99,true

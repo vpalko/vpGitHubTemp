@@ -1,0 +1,2 @@
+1, To Kill A Mockingbird, Harper Lee, 9.99, 5
+2, Charlotte's Web, E.B. White, 7.99, 7
