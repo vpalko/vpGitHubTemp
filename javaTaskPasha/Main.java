@@ -1,7 +1,15 @@
 import java.util.*;
+import java.text.DecimalFormat;  
 
 public class Main {
   public static void main(String[] args) {
+
+    DecimalFormat decfor = new DecimalFormat("0.00");  
+
+    double test = 2.33333333;
+    System.out.println(test);
+    System.out.println("Double Number: " + decfor.format(test));    //123.99  
+    System.exit(0);
 
     Store groceryShop = new Store();
     ArrayList<Product> groceries = groceryShop.getProducts();
@@ -41,7 +49,17 @@ public class Main {
               selectMeat = false;
 
             } else {
-              shopCart.addProduct();
+              index = 1;
+              for (int i = 0; i < groceries.size(); i++) {
+                if (groceries.get(i) instanceof Meat) {
+                  if (selection == index) {
+                    shopCart.addProduct(groceries.get(i));
+                    break;
+                  }
+                  index++;
+                }
+              }
+              System.out.println("\nTotal in cart: $" + shopCart.getTotalPrice());
             }
           }
 

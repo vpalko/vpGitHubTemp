@@ -28,7 +28,7 @@ public class Meat extends Product {
   @Override
   public String toString() {
 
-    return this.meatType;
+    return this.meatType + " $" + getPrice();
   }
 
 }
