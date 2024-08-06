@@ -1,0 +1,18 @@
+type, title, release year, genres, age rating, price, run time or system
+movie,Deadpool, 2016, [comedy;action;superhero], R, 12.99, 108
+movie,Toy Story, 1995, [comedy; adventure], G, 5.99, 81
+movie,Star Wars: A New Hope, 1977, [epic; sci-fi; war], PG, 7.99, 121
+movie,Saving Private Ryan, 1998, [war; drama; epic], R, 14.99, 170,
+movie,The Dark Knight, 2008, [superhero; crime; action], PG-13, 16.99, 152
+movie,Puss in Boots: The Last Wish, 2022, [fantasy; comedy; adventure], PG, 9.99, 102
+movie,Lord of the Rings, 2001, [fantasy; epic; action; adventure], PG-13, 4.99, 178
+movie, The SpongeBob SquarePants Movie, 2004, [comedy; adventure], PG, 7.99, 87
+game, Persona 5, 2016, [RPG; fantasy; dungeon crawler], M, 59.99, Playstation
+game, Shantae and the Pirate's Curse, 2014, [platformer; dungeon crawler; fantasy], T, 19.99, PC
+game, Super Mario Odyssey, 2017, [platformer], E10, 39.99, Nintendo
+game, Mario Party 4, 2002, [party], E, 15.99, Nintendo
+game, Grand Theft Auto V, 2013, [open world; crime], M, 45.99, PC
+game, Hyperdimension Neptunia, 2010, [dungeon crawler; sci-fi; fantasy; RPG], T, 12.99, Playstation
+game, Five Nights at Freddy's, 2014, [horror], T, 9.99, PC
+game, Minecraft, 2009, [open world; fantasy], E10, 19.99, Xbox
+game, Fallout 4, 2015, [action; RPG], M, 29.99, Xbox

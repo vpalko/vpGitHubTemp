@@ -1,15 +1,15 @@
 import java.util.*;
-import java.text.DecimalFormat;  
+// import java.text.DecimalFormat;  
 
 public class Main {
   public static void main(String[] args) {
 
-    DecimalFormat decfor = new DecimalFormat("0.00");  
+    // DecimalFormat decfor = new DecimalFormat("0.00");  
 
-    double test = 2.33333333;
-    System.out.println(test);
-    System.out.println("Double Number: " + decfor.format(test));    //123.99  
-    System.exit(0);
+    // double test = 2.33333333;
+    // System.out.println(test);
+    // System.out.println("Double Number: " + decfor.format(test));    //123.99  
+    // System.exit(0);
 
     Store groceryShop = new Store();
     ArrayList<Product> groceries = groceryShop.getProducts();
