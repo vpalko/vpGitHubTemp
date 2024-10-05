@@ -1,2 +1,4 @@
 // to run
 clear && javac Main.java && java Main
+
+clear && javac Project2.java && java Project2
