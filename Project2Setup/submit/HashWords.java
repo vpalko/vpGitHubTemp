@@ -1,4 +1,4 @@
-import itsc2214.*; // not needed now, but you might in your projects
+// import itsc2214.*; // not needed now, but you might in your projects
 
 /**
  * Description

@@ -1,5 +1,5 @@
 import java.util.*;
-import itsc2214.*;
+// import itsc2214.*;
 import java.io.File; // Import the File class
 import java.io.FileNotFoundException; // Import this class to handle errors
 
@@ -15,7 +15,7 @@ public class Project2 {
         HashWords table = new HashWords(17);
 
         // Read from a file
-        File theFile = new File("preamble.txt");
+        File theFile = new File("../preamble.txt");
         Scanner scanner = new Scanner(theFile).useDelimiter("[\\s\\p{Punct}]+");
         while (scanner.hasNext()) {
             String w = scanner.next();
