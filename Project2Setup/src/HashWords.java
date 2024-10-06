@@ -13,10 +13,12 @@ public class HashWords {
         totalWordCount = 0;
     }
 
+    // DONE
     public int size() {
         return table.length;
     }
 
+    // DONE
     public int hashKey(String w) {
         int hash = 0;
         for (char c : w.toLowerCase().toCharArray()) {
@@ -25,6 +27,7 @@ public class HashWords {
         return hash % table.length;
     }
 
+    // DONE
     public void addWord(String w) {
         int index = hashKey(w);
         int originalIndex = index;
@@ -62,6 +65,7 @@ public class HashWords {
         }
     }
 
+    // DONE
     public boolean contains(String w) {
         int index = hashKey(w);
         int originalIndex = index;
@@ -77,6 +81,7 @@ public class HashWords {
         return false;
     }
 
+    // DONE
     public int frequency(String w) {
         int index = hashKey(w);
         int originalIndex = index;
@@ -92,14 +97,17 @@ public class HashWords {
         return 0;
     }
 
+    // DONE
     public int numUniqueWordsInTable() {
         return uniqueWordCount;
     }
 
+    // DONE
     public int totalNumOfWords() {
         return totalWordCount;
     }
 
+    // DONE
     public String mostCommonWord() {
         String mostCommon = null;
         int highestCount = 0;
@@ -114,6 +122,7 @@ public class HashWords {
         return mostCommon;
     }
 
+    // DONE
     public double termFrequency(String w) {
         int wordFrequency = frequency(w);
         int totalWords = totalNumOfWords();
